@@ -52,6 +52,7 @@ main{
     border-radius: 50px 50px 0 0;
     padding: 0;
     letter-spacing: .063em;
+    color: white;
 }
 
 #myNameIs{
@@ -59,6 +60,7 @@ main{
     font-family: proxima-nova;
     font-weight: 500;
     line-height: 0;
+    color:white;
 }
 
 

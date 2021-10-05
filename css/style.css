@@ -16,51 +16,76 @@
 html{
     background-color: rgb(232, 230, 248);
     text-align: center;
-    padding: 10px;
+}
+
+body{
+    /* height: vh; */
+    width: 100%;
+    position: absolute;
 }
 
 header{
-    height:43vh;
+    height: 5vh;
     width: 100%;
+    background-color: blue;
+    border-bottom: 1vh solid yellow;
+    top:0;
+    position: fixed;
+}
+
+main{
+    
+    height: 350px;
+    width: 600px;
     background-color: red;
-    color: white;
-    border-radius: 50px 50px 0 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    color:black;
+    border-radius: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 1px 1px 4px darkblue;
 }
 
 #hello{
-    font-size: 20vh;
+    font-size: 100px;
     font-family: proxima-nova;
     font-weight: 700;
+    border-radius: 50px 50px 0 0;
+    padding: 0;
+    letter-spacing: .063em;
 }
 
 #myNameIs{
-    font-size: 7vh;
+    font-size: 45px;
     font-family: proxima-nova;
     font-weight: 500;
     line-height: 0;
 }
 
-main{
-    height: 44vh;
-    width: 100%;
-    background-color: white;
-    color:black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 #name{
-    font-size: 15vh;
+    font-size: 65px;
     font-family: shabby-chic;
+    background-color: white;
+    height: 100px;
+    margin-top: 50px;
+    padding-top: 13px;
+}
+
+#wrapper{
+    margin-top: 250px;
+    background-color: darkgray;
+    width: 610px;
+    padding: 5px;
+    
+    margin-left:auto;
+    margin-right:auto;
 }
 
 footer{
-    height: 13vh;
     width: 100%;
-    background-color: red;
-    border-radius: 0 0 50px 50px;
+    height:3vh;
+    background-color: blue;
+    border-top: 1vh solid yellow;
+    position: fixed;
+    bottom:0;
 }

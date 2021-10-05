@@ -1,15 +1,66 @@
+@import url("https://use.typekit.net/qgz4dtt.css");
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: shabby-chic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 500, 700, 900;
+    font-style: normal;
 }
 
 html{
-    background-color: rgb(151, 140, 252);
-    padding: 30px;
+    background-color: rgb(232, 230, 248);
+    text-align: center;
+    padding: 10px;
 }
 
-ul{
-    margin-left: 20px;;
+header{
+    height:43vh;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border-radius: 50px 50px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hello{
+    font-size: 20vh;
+    font-family: proxima-nova;
+    font-weight: 700;
+}
+
+#myNameIs{
+    font-size: 7vh;
+    font-family: proxima-nova;
+    font-weight: 500;
+    line-height: 0;
+}
+
+main{
+    height: 44vh;
+    width: 100%;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    font-size: 15vh;
+    font-family: shabby-chic;
+}
+
+footer{
+    height: 13vh;
+    width: 100%;
+    background-color: red;
+    border-radius: 0 0 50px 50px;
 }

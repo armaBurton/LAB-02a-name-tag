@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html{
+    background-color: rgb(151, 140, 252);
+    padding: 30px;
+}
+
+ul{
+    margin-left: 20px;;
+}
